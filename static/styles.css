@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Lobster&family=Teko:wght@400;500&display=swap');
+
+body{
+    background-image: url("14710.jpg");
+    background-repeat: repeat;
+    background-size: 400px 400px;
+}
+
+nav{
+    margin: 10px 15px;
+    border-radius: 10px;
+}
+
+nav .navbar-brand
+{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+nav .navbar-brand .blue
+{
+    color: #ADA2FF;
+}
+nav .navbar-brand .red
+{
+    color: #F7A4A4;
+}
+
+.nav-item{
+    font-family: 'Teko', sans-serif;
+    font-size: x-large;
+}
+
+.remove{
+    font-family: 'Teko', sans-serif;
+    font-size: x-large;
+}
+
+form{
+    margin: 5% 32% 0% 32%;
+}
+.cat_img{
+    position:fixed;
+    bottom:0px;
+    width: 70%;
+    left:16%;
+
+}
+
+.shortcut{
+    margin-top:10%;
+}
+
+.apology{
+    position:fixed;
+    bottom:50px;
+    left:35%;
+}
+
+.drop{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+.logo{
+    margin-top: 10px;
+    width:50px;
+    height:50px;
+}
+.card{
+    background-color: #F9F9F9;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.card:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.05);
+    background-color: #EEEEEE;
+}

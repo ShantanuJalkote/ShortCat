@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add
+{% endblock %}
+
+{% block main %}
+<form action="/add" method="post" class="shadow-lg p-3 mb-5 bg-body rounded">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input autocomplete="off" autofocus type="name" class="form-control" id="name" placeholder="Name" name="name">
+    </div>
+    <div class="mb-3">
+        <label for="url" class="form-label">URL</label>
+        <input type="text" class="form-control" id="url" name="url" placeholder="Url">
+    </div>
+    <div class="d-grid gap-2">
+    <button type="submit" class="btn btn-primary">ADD</button>
+    </div>
+</form>
+<img class="cat_img" src="/static/cat.png">
+{% endblock %}

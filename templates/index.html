@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+<div class="row row-cols-1 row-cols-md-6 g-3">
+  {% for row in data %}
+  <div class="col">
+    <div class="card text-center h-100">
+      <a href="{{ row['link'] }}" class="link-dark">
+      <img src="{{ row['logo'] }}" class="card-img-top logo mx-auto" alt="logo">
+      <div class="card-body">
+        <h5 class="card-title logo-name">{{ row['name'] }}</h2>
+        </a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+<form action="/login" method="post" class="shadow-lg p-3 mb-5 bg-body rounded">
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input autocomplete="off" autofocus type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" name="password">
+    </div>
+    <div class="d-grid gap-2">
+    <button type="submit" class="btn btn-primary">Log In</button>
+    </div>
+</form>
+<img class="cat_img" src="/static/cat.png">
+{% endblock %}

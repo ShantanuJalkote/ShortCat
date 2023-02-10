@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Remove
+{% endblock %}
+
+{% block main %}
+<form action="/remove" method="post" class="shadow-lg p-3 mb-5 bg-body rounded">
+<div class="d-grid gap-2 drop">
+   <select name="shortcut">
+    {% for shortcut in shortcuts%}
+        <option value="{{ shortcut }}">{{ shortcut }}</option>
+    {% endfor %}
+   </select>
+</div>
+<div class="d-grid gap-2">
+    <button type="submit" class="btn btn-primary">Remove</button>
+ </div>
+</form>
+<img class="cat_img" src="/static/cat.png">
+{% endblock %}
