@@ -1,6 +1,7 @@
 # ShortCat
 #### Live Website:  https://shantanu.pythonanywhere.com/
 #### Video Demo:  https://www.youtube.com/watch?v=a9EETFkr_zc
+#### Preview : ![ShortCat Website Preview](https://github.com/ShantanuJalkoteShortCat-CS50-Submission/blob/main/image.jpg?raw=true)
 #### Description:
 ShortCat is a shortcut manager website that allows users to create and manage clickable links to their favorite websites. To use the website, users simply need to input the name and URL of the website they want to create a shortcut for. Once the shortcut has been created, it will appear as a clickable link with the website's logo on the ShortCat home page.
 
